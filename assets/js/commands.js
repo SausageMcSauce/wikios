@@ -22,7 +22,8 @@ $('body').terminal({
       }
   },
     cheese: function() {
-      this.echo(encryptedThingy("attachments/289427184467181568/711417946890698783/cheese.mp4"));
+      this.echo("Does not work");
+      //this.echo(encryptedThingy("attachments/289427184467181568/711417946890698783/cheese.mp4"));
   }}, {
     greetings: "Scratch Wiki OS - what even is this?"
 });
