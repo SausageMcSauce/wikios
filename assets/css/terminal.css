@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+  color: silver;
+  font-family: monospace;
+}
+
+#commands {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
