@@ -1,12 +1,17 @@
-body {
+body, #commands {
   background-color: black;
   color: silver;
   font-family: monospace;
+  font-size: 12px;
+}
+
+p, #input {
+  padding: 2px;
 }
 
 #commands {
   outline: none;
   border: none;
   background-color: transparent;
-  color: white;
+  margin: none;
 }

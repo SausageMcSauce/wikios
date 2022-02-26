@@ -1,12 +1,15 @@
-var input = document.getElementById("commands"); // Code taken from W3Schools
-alert(input);
-input.addEventListener("keyup", function(event) {
+var input = document.getElementById("commands"); 
+var output = document.getElementById("output");
+input.addEventListener("keyup", function(event) { // Code taken from W3Schools
   if (event.keyCode === 13) {
-   event.preventDefault();
-   document.getElementById("submitcommand").click();
+    event.preventDefault();
+    document.getElementById("submitcommand").click();
+    input.value = "";
   }
 });
 
 function executeCommand() {
-  alert("To be implemented later");
+  document.getElementById("output").innerHTML += `<p>&gt; ${input.value}</p>`;
+  command = input.value.split(" ");
+  commands();
 }
