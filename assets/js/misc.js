@@ -1,5 +1,5 @@
 function youtube(id) {
-  return `<iframe class="youtube-player" type="text/html" width="269" height="162" src="//www.youtube.com/embed/${id}?fs=1&amp;rel=0&amp;autoplay=1&amp;showinfo=0" frameborder="0"></iframe>` /* copied from the Scratch Discuss Youtube player" */
+  return `<iframe class="youtube-player" type="text/html" width="400" height="300" src="//www.youtube.com/embed/${id}?fs=1&amp;rel=0&amp;autoplay=1&amp;showinfo=0" frameborder="0"></iframe>` /* copied from the Scratch Discuss Youtube player" */
 }
 
 function encryptedThingy(file) {
