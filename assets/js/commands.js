@@ -3,7 +3,7 @@ function commands() {
   case "about":
     output.innerHTML += `<div>
     <p>Created by (Sausage)McSauce / Jammum</p>
-    <p>Code at <a href="https://github.com/SausageMcSauce/wikios"></a> (more information at the README) and under MIT License</p>
+    <p>Code at <a href="https://github.com/SausageMcSauce/wikios">https://github.com/SausageMcSauce/wikios</a> (more information at the README) and under MIT License</p>
     <p>Based on this thing:</p>
     <img src="./assets/img/mee.png" alt="blue square with eyes and mouth or something"> 
     </div>`;
