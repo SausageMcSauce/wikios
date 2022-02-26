@@ -5,7 +5,6 @@ $('body').terminal({
     this.echo("Made using [[!;;;;https://terminal.jcubic.pl/]jQuery Terminal]");
     this.echo("Based on this thing:");
     this.echo("[[@;;;;./assets/img/mee.png]]");
-    this.echo(encryptedThingy())
   },
     jammum: function() {
       this.echo("[[@;;;;./assets/img/toothpaste.png]]");
