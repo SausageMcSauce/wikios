@@ -32,6 +32,9 @@ function commands() {
     case "realdictator":
       output.innerHTML += `<img src="${DMedia("attachments/343464479545098242/706992836633165884/6d17ca30deb801317193005056a9545d.png")}" height="300" alt="she read s:yours">`;
       break;
+    case "sudo":
+      output.innerHTML += `<p style="color:red">Error: This is not Linux</p>`;
+      break;
   default:
       output.innerHTML += `<p style="color:red">Error: Command does not exist</p>`
   }
