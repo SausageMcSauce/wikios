@@ -35,7 +35,13 @@ function commands() {
     case "sudo":
       output.innerHTML += `<p style="color:red">Error: This is not Linux</p>`;
       break;
+    case "clock":
+      var currenttime = new Date();
+      var hours = `${currenttime.getHours()}`.padStart(2, "0");
+      var clock = `${hours}:${currenttime.getMinutes()}`;
+      output.innerHTML += `<p>Current time: ${clock}</p>`;
+      break;
   default:
-      output.innerHTML += `<p style="color:red">Error: Command does not exist</p>`
+      output.innerHTML += `<p style="color:red">Error: Command does not exist</p>`;
   }
 }
