@@ -15,10 +15,21 @@ function commands() {
       output.innerHTML += youtube("2Q_ZzBGPdqE");
       break;
     case "cheese":
-      output.innerHTML += `<div><video width="320" height="240" controls>
+      let choice = Math.floor(Math.random() * 2) + 1;
+      switch(choice) {
+        case 1:
+          output.innerHTML += `<div><video width="320" height="240" controls>
         <source src="${DCDN("attachments/289427184467181568/711417946890698783/cheese.mp4")}" type="video/mp4">
         video go nope
       </video></div>`;
+          break;
+        case 2:
+          output.innerHTML += `<div><video width="320" height="240" controls>
+        <source src="${DCDN("attachments/423525684799995904/886656625597890580/6282.mp4")}" type="video/mp4">
+        video go nope
+      </video></div>`;
+          break;
+      }
       break;
     case "noice":
       output.innerHTML += `<img src="${DMedia("attachments/343464479545098242/466971388129837066/unknown.png?width=717&height=630")}" height="500" alt="noice man">`;
