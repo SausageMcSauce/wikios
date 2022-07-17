@@ -52,6 +52,16 @@ function commands() {
       var clock = `${hours}:${currenttime.getMinutes()}`;
       output.innerHTML += `<p>Current time: ${clock}</p>`;
       break;
+    case "lottery":
+      let spin = Math.floor(Math.random() * 10000) + 1;
+      switch(spin) {
+        case 1:
+          output.innerHTML += "<p>You win! Congratulations! 💰 💰 💰</p>";
+          break;
+        default: 
+          output.innerHTML += "<p>You lose! Good day, sir/madam/etc. !</p>";
+          break;
+      }
   default:
       output.innerHTML += `<p style="color:red">Error: Command does not exist</p>`;
   }

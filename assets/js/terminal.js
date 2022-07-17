@@ -1,6 +1,6 @@
 var input = document.getElementById("commands"); 
 var output = document.getElementById("output");
-input.addEventListener("keyup", function(event) { // Code based from from W3Schools
+input.addEventListener("keyup", function(event) { // Code based from W3Schools
   if (event.key === "Enter") {
     event.preventDefault();
     document.getElementById("submitcommand").click();
